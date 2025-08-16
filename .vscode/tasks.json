@@ -1,0 +1,29 @@
+{
+   "version": "2.0.0",
+   "tasks": [
+      {
+         "label": "Install dependencies",
+         "type": "shell",
+         "command": ".\\build.ps1 -install",
+         "problemMatcher": []
+      },
+      {
+         "label": "Run local web server",
+         "type": "shell",
+         "command": "npm start",
+         "problemMatcher": []
+      },
+      {
+         "label": "View slides (presentation mode)",
+         "type": "shell",
+         "command": "start http://localhost:8000/",
+         "problemMatcher": []
+      },
+      {
+         "label": "View presentation (PDF mode)",
+         "type": "shell",
+         "command": "start http://localhost:8000/?print-pdf",
+         "problemMatcher": []
+      }
+   ]
+}

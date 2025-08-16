@@ -1,0 +1,9 @@
+{
+   "cSpell.language": "en,de",
+   "files.autoSave": "afterDelay",
+   "markdownlint.config": {
+      "MD033": false,
+      "MD041": false,
+      "MD045": false
+   },
+}
