@@ -5,11 +5,15 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 
-  <title>My Presentation Template</title>
+  <title>Weniger Pipelines, Mehr Spaß!?</title>
 
   <link rel="stylesheet" href="reveal.js/dist/reset.css" />
   <link rel="stylesheet" href="reveal.js/dist/reveal.css" />
-  <link rel="stylesheet" href="reveal.js/dist/theme/black.css" />
+
+  <!-- Theme used for slides -->
+  <link rel="stylesheet" href="reveal.js/dist/theme/league.css" />
+  <!--<link rel="stylesheet" href="css/mq.css" />-->
+
   <link rel="stylesheet" href="css/custom.css" />
 
   <!-- Theme used for syntax highlighted code -->
@@ -28,8 +32,8 @@
   <script src="reveal.js/plugin/notes/notes.js"></script>
   <script src="reveal.js/plugin/markdown/markdown.js"></script>
   <script src="reveal.js/plugin/highlight/highlight.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/reveal.js-mermaid-plugin@11.4.1/plugin/mermaid/mermaid.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/reveal-plantuml@1.0.2/dist/reveal-plantuml.min.js"></script>
+  <!-- <script src="https://cdn.jsdelivr.net/npm/reveal.js-mermaid-plugin@11.4.1/plugin/mermaid/mermaid.min.js"></script> //-->
+  <!-- <script src="https://cdn.jsdelivr.net/npm/reveal-plantuml@1.0.2/dist/reveal-plantuml.min.js"></script> //-->
   <script>
     // More info about initialization & config:
     // - https://revealjs.com/initialization/
@@ -41,7 +45,7 @@
       pdfMaxPagesPerSlide: 1,
       backgroundTransition: "slide",
       // Learn about plugins: https://revealjs.com/plugins/
-      plugins: [RevealMarkdown, RevealHighlight, RevealNotes, RevealMermaid],
+      plugins: [RevealMarkdown, RevealHighlight, RevealNotes], //, RevealMermaid],
       //width: "80%",
       //height: "100%",
     });
