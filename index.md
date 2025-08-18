@@ -22,13 +22,10 @@ Notes:
 
 ### Was ist meine Agenda?
 
-- <!-- .element: class="fragment" data-fragment-index="1" --> Kurzer Erfahrungsbericht:
-  - <!-- .element: class="fragment"  data-fragment-index="2" --> Automotive/Embedded-C
-  - <!-- .element: class="fragment"  data-fragment-index="3" --> Software Product Line Engineering
-- <!-- .element: class="fragment" data-fragment-index="4" --> Jetzt mal ehrlich:
-  - <!-- .element: class="fragment" data-fragment-index="5" --> Jenkins ist tot! Wirklich?
-  - <!-- .element: class="fragment" data-fragment-index="6" --> Wie sehen eure Pipelines so aus?
-  - <!-- .element: class="fragment" data-fragment-index="7" --> Habt ihr Spaß mit CI?
+- <!-- .element: class="fragment" --> Tue Gutes ...
+  - <!-- .element: class="fragment" --> Jenkins in Automotive/Embedded-C
+  - <!-- .element: class="fragment" --> Unsere Pipelines und Quality Gates
+- <!-- .element: class="fragment" --> ... und rede darüber!
 
 ---
 
@@ -114,7 +111,7 @@ und mehrere 100 Entwickler weltweit an einer Codebasis arbeiten?
 
 --
 
-### Der Traum der SW Factory
+### Der Traum: eine SW Factory
 
 ![](images/sw-factory.png) <!-- .element height="60%" width="60%" -->
 
@@ -204,41 +201,18 @@ Note:
 
 ## Wo will ich hin?
 
-- Pipeline als Code im Repo <!-- .element: class="fragment" -->
-- Mittels Bootstrapping alle Dependencies <!-- .element: class="fragment" -->
-- Everything as Code <!-- .element: class="fragment" -->
-- Schnelles Buildsystem (CMake/Ninja für C/C++)  <!-- .element: class="fragment" -->
+- <!-- .element: class="fragment" --> Pipeline as Code
+- <!-- .element: class="fragment" --> Dependencies as Code
+- <!-- .element: class="fragment" --> Quality Checks as Code
+- <!-- .element: class="fragment" --> Everything else as Code
 
 Note:
-
-Okay, wie geht es denn nun besser?
-
-*click*
-
-- Man braucht schon irgendeine Art von Pipeline, aber nur als Steuerung des Build Systems.
-
-- Die Pipeline darf nicht komplexer sein als das User Interface via Konsole oder IDE
-
-- Kein CI Only Code!!!
-
-*click*
-
-- Sauberes Dependency Management ist wichtig.
-- Keine Magie mit lokalen Installern
-
-*click*
-
-- Alles andere kommt aus dem Code
-
-*click*
-
-- Schnelles Buildsystem, dass alle Artefakte generieren kann.
 
 --
 
 ### Pipeline Happiness?
 
-- Checkout <!-- .element: class="fragment" -->
+- Checkout vom Repository<!-- .element: class="fragment" -->
 - Installation aller Abhängigkeiten <!-- .element: class="fragment" -->
 - Ausführen ausgewählter Tests als Quality Checks <!-- .element: class="fragment" -->
 - Archivieren der Ergebnisse <!-- .element: class="fragment" -->
@@ -315,6 +289,15 @@ jobs:
 ```
 
 </div>
+
+---
+
+### ... und redet darüber!
+
+- Feedback welcome!
+- Ich hab gehört, Jenkins ist tot! Wirklich?
+- Wie sehen eure Pipelines so aus?
+- Habt ihr Spaß mit CI?
 
 ---
 
