@@ -6,7 +6,7 @@ Rhein-Main Testing Day 2025 in Eschborn
 
 Notes:
 
-- Hallo zusammen und willkommen zur Open Space Diskussion über meine These "Weniger Pipelines == Mehr Spaß!".
+- Hallo zusammen und willkommen zur Open Space Diskussion über meine These "Weniger Pipelines, Mehr Spaß!?".
 
 ---
 
@@ -18,14 +18,42 @@ Notes:
     <a href="https://www.linkedin.com/in/karnangue/">Karsten</a>
 </div>
 
+Notes:
+
+Mein Name ist Karsten Günther.
+
+Ich bin seit 20 Jahren als Softwareentwickler im Automobilbereich unterwegs.
+
+Von Ada, Embedded C, C++, Perl, Tcl, Python über die Entwicklung von Dev Tools bis hin zu Jenkins Pipelines hab ich schon eine Menge gesehen und gemacht.
+
+Aktuell arbeite ich als Platform Architekt im Rhein-Main-Team der Marquardt GmbH.
+
+Dort geht es um Software-Produktlinien, interne Developer Plattformen, Automatisierung und CI/CD.
+
 --
 
 ### Was ist meine Agenda?
 
 - <!-- .element: class="fragment" --> Tue Gutes ...
-  - <!-- .element: class="fragment" --> Jenkins in Automotive/Embedded-C
+  - <!-- .element: class="fragment" --> Jenkins/CI in Automotive/Embedded-C
   - <!-- .element: class="fragment" --> Unsere Pipelines und Quality Gates
 - <!-- .element: class="fragment" --> ... und rede darüber!
+
+Notes:
+
+- Okay, was will ich eigentlich von euch?
+
+- Eins vorne weg: ich war noch die in so einem Open Space.
+
+- Ein alter Chef von mir hat immer gesagt: Tue Gutes und rede darüber! (Ich glaube, der Spruch ist von Goethe.)
+
+- Also mach ich das, tue Gutes ...
+
+- und erzähle euch von meiner Erfahrung mit Jenkins und CI in der Automotive/Embedded Welt und ...
+
+- ... wo die Reise mit unseren Pipelines und Quality Gates so hin gehen soll.
+
+- Tja, und rede darüber! Das würde ich gerne mit euch nach meinen Vortrag ausgiebig tun.
 
 ---
 
@@ -37,9 +65,7 @@ Back to 2005 <!-- .element: class="fragment" data-fragment-index="1" -->
 
 Note:
 
-- Dazu geht es etwas zurück in die Vergangenheit, genauer gesagt ins Jahr 2005.
-
-- Da hab ich als Neuling in der Automobilindustrie angefangen.
+- Tja, wo komme ich her?
 
 --
 
